@@ -137,7 +137,7 @@ server.post("/login", (requisicao,resposta) => {
             if(!senha){
                 conteudo+=`
                 <div>
-                    <p class="text-danger">Por favor, informe a enha</p>
+                    <p class="text-danger">Por favor, informe a Senha</p>
                 </div>
                 `
             }
